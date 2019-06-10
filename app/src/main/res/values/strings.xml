@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Notifications</string>
+    <string-array name="names">
+        <item>App</item>
+        <item>Email</item>
+        <item>Both App and Email</item>
+    </string-array>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <!-- Makoto Go-specific strings -->
+    <string name="please_choose">Please Choose</string>
+    <string name="action_about">About...</string>
+    <string name="copyright">Copyright Notice</string>
+    <string name="makotogo_example_icon">Makoto Go Example</string>
+    <string name="button_choosedatetime">Choose Date/Time</string>
+    <string name="choose_date_or_time">Choose Date or Time:</string>
+</resources>

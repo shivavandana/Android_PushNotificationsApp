@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.shiva.firebasepushnotifications.YesNoActivity"
+    android:background="@drawable/blurimage"
+    android:weightSum="4">
+
+   <!-- <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="0.5"
+        android:id="@+id/txt_jobid"
+        android:textColor="#1c1c1c"
+        android:layout_alignParentTop="true"
+        android:layout_gravity="center_horizontal"
+        android:layout_centerHorizontal="true"
+        android:textSize="25sp"/>-->
+
+    <TextView
+     android:layout_width="match_parent"
+     android:layout_height="0dp"
+     android:textColor="#1c1c1c"
+     android:layout_weight="0.5"
+     />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2.5"
+        android:id="@+id/txt_text"
+        android:textColor="#3F51B5"
+        android:layout_marginLeft="20dp"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:layout_below="@+id/txt_text"
+        android:weightSum="2">
+    <Button
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:id="@+id/btn_yespicker"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginBottom="15dp"
+        android:layout_marginRight="20dp"
+        android:background="@color/colorPrimaryDark"
+        android:textColor="#fff"
+        android:text="Yes"
+        android:textStyle="bold"
+        />
+    <Button
+        android:id="@+id/btn_nopicker"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@color/colorPrimaryDark"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="15dp"
+        android:layout_marginTop="20dp"
+        android:text="No"
+        android:layout_toRightOf="@+id/btn_yespicker"
+        android:textColor="#fff"
+        android:textStyle="bold" />
+    </LinearLayout>
+
+</LinearLayout>

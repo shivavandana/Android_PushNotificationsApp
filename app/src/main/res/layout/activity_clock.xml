@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="10dp"
+        android:background="@drawable/doggycalender"
+        tools:context="com.shiva.firebasepushnotifications.ClockActivity">
+
+       <TextView
+        android:id="@+id/just_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#1c1c1c"
+        />
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_margin="10dp"
+           android:id="@+id/txt_text"
+           android:layout_below="@id/just_text"
+           android:textColor="#3F51B5"
+           android:textStyle="bold"
+           android:textSize="20sp"/>
+
+
+        <TextView
+            android:id="@+id/txtdate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#1c1c1c"
+            android:text="Date"
+            android:layout_gravity="center_horizontal"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/txt_text"
+            android:textSize="20sp"
+            android:visibility="invisible"
+            />
+
+       <ImageView
+        android:id="@+id/calimage"
+        android:src="@drawable/calenderimage"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/txt_text"
+        />
+        <Button
+            android:id="@+id/btndatepicker"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@color/colorPrimaryDark"
+            android:text="Pick Date"
+            android:layout_gravity="center_horizontal"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/calimage"
+            android:textColor="#fff"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/submit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimaryDark"
+            android:layout_margin="10dp"
+            android:layout_below="@+id/btndatepicker"
+            android:layout_centerInParent="true"
+            android:text="Update the date to our records!!"
+            android:layout_centerHorizontal="true"
+            android:textColor="#fff"
+            android:textStyle="bold" />
+        <Button
+            android:id="@+id/emailbutton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimaryDark"
+            android:text="Any Issue...?Send us Email"
+            android:layout_centerHorizontal="true"
+            android:textColor="#fff"
+            android:textStyle="bold"
+            android:layout_marginBottom="30dp"
+            android:layout_alignParentBottom="true"/>
+
+</RelativeLayout>
+
+
